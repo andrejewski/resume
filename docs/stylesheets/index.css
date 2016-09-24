@@ -1,0 +1,127 @@
+section {
+  margin-bottom: 1.5em;
+}
+ul {
+  margin: 0;
+  padding: 0 0 0 24px;
+  list-style-type: square;
+  color: #444;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+h1 {
+  color: #111;
+  font-size: 2.2em;
+  margin: 0px;
+}
+h2 {
+  color: #222;
+  font-size: 1.4em;
+  margin: 0px;
+}
+h3 {
+  color: #333;
+  font-size: 1.2em;
+  margin: 0px;
+}
+h4 {
+  color: #222;
+  font-size: 1em;
+  margin: 0px;
+}
+p {
+  font-size: 1em;
+  color: #444;
+  margin: 0 0 1.2em;
+}
+p:last-child {
+  margin-bottom: 0px;
+}
+a {
+  text-decoration: underline;
+  color: inherit;
+  cursor: pointer;
+}
+@media print {
+  a {
+    text-decoration: none;
+  }
+}
+.document {
+  padding: 1.5em;
+  max-width: 840px;
+  margin: 0px auto;
+}
+@media print {
+  .document {
+    padding: 0;
+    max-width: none;
+  }
+}
+.name {
+  -ms-flex: 1;
+      flex: 1;
+}
+.emblem {
+  position: absolute;
+  top: 0;
+  right: 100%;
+}
+.emblem img {
+  margin-right: 50px;
+  width: 50px;
+}
+@media print {
+  .print-not {
+    display: none;
+  }
+}
+.print-only {
+  display: none;
+}
+@media print {
+  .print-only {
+    display: block;
+  }
+}
+.download {
+  text-align: right;
+}
+.download p {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 1em;
+}
+.action {
+  text-decoration: underline;
+  color: inherit;
+}
+.address-line {
+  padding-top: 5px;
+  padding-bottom: 1em;
+  font-size: 0.9em;
+}
+.address-line span {
+  display: block;
+}
+.flex-expand {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.flex-expand section {
+  margin-right: 2em;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,94 @@
+extends ../views/layout
+
+block prepend head
+  title Christopher Andrejewski - Resume
+
+block prepend body
+  .document
+    .download
+      p.print-not This resume is printable. #[a.action(onClick='print()') Print resume] or #[a.action(href='chris-andrejewski-resume.pdf') Download PDF]
+      p.print-only Please visit #[a.action(href='http://chrisandrejewski.com/resume') chrisandrejewski.com/resume] for the most recent version of this document.
+
+    header.flex-expand
+      .name
+        h1 Christopher Andrejewski
+        p Software Engineer
+        p
+      p.address-line
+        span Mail: 3501 Emerson Avenue, Erie, Pennsylvania, 16508
+        span Email: #[a(href='mailto:christopher.andrejewski@gmail.com') christopher.andrejewski@gmail.com]
+        span Phone: +1 814 806 5889
+
+    h2 Summary
+    p.
+      I am a software engineer who specializes in Node.js, jQuery, Ember, and just about everything else JavaScript.
+      I develop software products from start to finish or anywhere in between.
+      I have experience as a full-stack developer, web application developer, open-source maintainer, and interface designer.
+
+    h2 Keywords
+    p I have experience with the following technologies and languages.
+    .flex-expand
+      section
+        h4 Server
+        ul
+          li Node.js
+          li Redis
+          li Mongodb
+          li Postgres
+          li Nginx
+
+      section
+        h4 Web
+        ul
+          li JavaScript / CoffeeScript
+          li jQuery / Backbone / Ember / React
+          li HTML / Pug (Jade) / Handlebars
+          li CSS / SASS / LESS / Stylus
+          li Selenium / Phantom.js
+
+      section
+        h4 Tools
+        ul
+          li Github / Bitbucket
+          li JIRA / Pivotal Tracker
+          li Sketch / Sketchbook
+          li Atom / Vim
+          li AWS / Digital Ocean
+
+      section
+        h4 Other
+        ul
+          li C / C++
+          li Java
+          li English
+
+    h2 Work Experience
+
+    section
+      h3 Software Engineer
+      p Interactive Intelligence – Raleigh, North Carolina, May 2013 to August 2013
+      ul
+        li Reduce bundle size of Collaborate product by roughly 50%
+        li Translate legacy CoffeeScript to ES2016 JavaScript
+        li Develop additions to the instant messaging product
+        li Develop user interface improvements and perform code refactorings and reviews
+        li Rewrite the Purecloud JavaScript client software development kit
+        li Publish open source projects for logging, Ember code migration, multi-level caching, and command-line interface parsing
+
+    section
+      h3 Research assistant
+      p Penn State University – Erie, Pennsylvania, September 2015 to May 2013
+      ul
+        li Research and develop a computer-vision software for librarians to sort books by call number
+        li Receive first place for the librarian software at the Penn State - Sigma Xi Undergraduate Research Conference
+        li Develop a revived senior design project for the Pennsylvania Seagrant and Wildlife organizations
+        li Work with the Penn State IT department to place the project in production
+
+    section
+      h3 Software Engineer
+      p Netbus Engineering Group – Erie, Pennsylvania, June 2015 to August 2015
+      ul
+        li Develop a large scale customer management system under startup constraints
+        li Implement service intergations with providers of fraud-prevention to fulfillment solutions
+        li Develop and design large potions of the integrations, customers, and shipping interfaces
+        li Work with CoffeeScript, Redis, and Mongodb for rapid prototyping and development
