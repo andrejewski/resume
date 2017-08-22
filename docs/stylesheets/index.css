@@ -1,11 +1,18 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+body {
+  font-size: 0.9em;
+}
 section {
-  margin-bottom: 1.5em;
+  margin: 0.75em 0;
 }
 ul {
   margin: 0;
-  padding: 0 0 0 24px;
+  padding: 0 0 0 1.1em;
   list-style-type: square;
-  color: #444;
+  color: #111;
 }
 h1,
 h2,
@@ -13,32 +20,33 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
+  font-weight: bold;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 h1 {
-  color: #111;
+  color: #000;
   font-size: 2.2em;
   margin: 0px;
 }
 h2 {
-  color: #222;
-  font-size: 1.4em;
-  margin: 0px;
-}
-h3 {
-  color: #333;
+  color: #000;
   font-size: 1.2em;
   margin: 0px;
 }
+h3 {
+  color: #000;
+  font-size: 1.1em;
+  margin: 0px;
+}
 h4 {
-  color: #222;
+  color: #000;
   font-size: 1em;
   margin: 0px;
 }
 p {
   font-size: 1em;
-  color: #444;
-  margin: 0 0 1.2em;
+  color: #111;
+  margin: 0 0 0.5em;
 }
 p:last-child {
   margin-bottom: 0px;
