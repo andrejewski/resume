@@ -7,29 +7,29 @@ block prepend body
   .document
     .download
       p.print-not This resume is printable. #[a.action(onClick='print()') Print resume] or #[a.action(href='chris-andrejewski-resume.pdf') Download PDF]
-      p.print-only Please visit #[a.action(href='http://chrisandrejewski.com/resume') chrisandrejewski.com/resume] for the most recent version of this document.
+      p.print-only Visit #[a.action(href='http://chrisandrejewski.com/resume') chrisandrejewski.com/resume] for the most recent version of this document.
 
     header.flex-expand
       .name
         h1 Christopher Andrejewski
-        p Software Engineer
-        p
+
       p.address-line
         span Email: #[a(href='mailto:christopher.andrejewski@gmail.com') christopher.andrejewski@gmail.com]
         span Github: #[a(href='https://github.com/andrejewski') github.com/andrejewski]
 
     section
-      h2 Summary
-      p.
-        I develop software products from start to finish or anywhere in between.
-        I design and maintain user and developer experiences and infrastructure.
-        I have experience as a full-stack developer, web application developer, open-source maintainer, and interface designer.
-
-    h2 Work Experience
+      h3 Staff Software Engineer
+      p Stripe – Seattle, Washington, March 2022 to present
+      ul
+        li Leading an awesome platform team 
+        li Building a code-less messaging authoring experience
+        li Saving fellow Stripes hundreds of hours on messaging
+        li Saving millions of dollars in various cost optimizations
+        li Helping everyone write their next best ever code
 
     section
       h3 Software Engineer
-      p Stripe – San Francisco, California, September 2018 to present
+      p Stripe – San Francisco, California, September 2018 to March 2022
       ul
         li Maintain email, telephony, and push notification infrastructure at scale
         li Build and secure email infrastructure on top of Amazon SES
@@ -75,43 +75,3 @@ block prepend body
         li Implement service integrations with providers of fraud-prevention to fulfillment solutions
         li Develop and design large potions of the integrations, customers, and shipping interfaces
         li Work with CoffeeScript, Redis, and Mongodb for rapid prototyping and development
-
-    hr
-
-    section
-      h2 Keywords
-      p I have experience with the following technologies and languages.
-      .flex-expand
-        section
-          h4 Server
-          ul
-            li Node.js
-            li Ruby / Sorbet
-            li Redis
-            li Mongodb
-            li Postgres
-
-        section
-          h4 Web
-          ul
-            li JavaScript / CoffeeScript / Flow
-            li jQuery / Backbone / Ember / React
-            li HTML / Pug (Jade) / Handlebars
-            li CSS / SASS / LESS / Stylus
-            li REST / GraphQL
-
-        section
-          h4 Tools
-          ul
-            li Github / Bitbucket / JIRA
-            li Sketch / Sketchbook
-            li Atom / Vim
-            li AWS / Digital Ocean
-            li Terraform
-
-        section
-          h4 Other
-          ul
-            li C / C++
-            li Java
-            li English

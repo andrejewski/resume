@@ -36,5 +36,8 @@
     "gulp-sourcemaps": "^1.6.0",
     "postcss-reporter": "^1.4.1",
     "run-sequence": "^1.2.2"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.10"
   }
 }
